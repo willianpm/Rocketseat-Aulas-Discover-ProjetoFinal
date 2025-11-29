@@ -8,7 +8,7 @@
   --text-color: white;
   --bg-url: url(./assets/bg-mobile.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
-  --surface-color: #4b6885;
+  --surface-color: #3c4249;
   --surface-color-hover: #5f7dad;
   --highlight-color: rgba(255, 255, 255, 0.2);
   --switch-bg-url: url(./assets/moon-stars.svg);
@@ -123,9 +123,11 @@ ul li a:hover {
 }
 
 footer {
-  /* padding: 24px; */
   text-align: center;
   font-size: 14px;
+
+  /* padding: 24px; */
+
   /* background-color: #36495a;
   border-radius: 10px; */
 }
