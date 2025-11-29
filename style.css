@@ -26,19 +26,18 @@ body * {
 }
 
 #container {
-  border: 2px solid red;
   width: 100%;
   max-width: 588px;
   margin: 50px auto 0px;
   padding: 0 24px;
 }
 
+/* profile */
 #profile {
-  border: 2px solid yellow;
+  text-align: justify;
   padding: 24px;
 }
 
-/* imagem do profile */
 #profile img {
   width: 350px;
   margin: auto;
@@ -51,6 +50,42 @@ body * {
   font-weight: 500;
   line-height: 24px;
   margin-top: 15px;
+}
+
+/* links */
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  padding: 24px 0;
+}
+
+ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 16px 24px;
+
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+
+  backdrop-filter: blur (4px);
+  -webkit-backdrop-filter: blur(4px);
+
+  text-decoration: none;
+  font-weight: 500;
+
+  transition: background 0.2s;
+}
+
+/* pseudo-selector */
+ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1.5px solid white;
 }
 
 #social-links {
