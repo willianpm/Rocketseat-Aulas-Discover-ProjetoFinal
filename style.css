@@ -25,7 +25,6 @@
 }
 
 body {
-  /* background: imagem, sem repetição, centralizado/cobrindo tudo*/
   background: var(--bg-url) no-repeat center/cover;
   height: 100vh;
 }
@@ -55,7 +54,6 @@ body * {
   border-radius: 25px;
 }
 
-/* frase abaixo da img profile */
 #profile p {
   font-weight: 500;
   text-align: center;
@@ -74,7 +72,6 @@ body * {
   width: 32px;
   height: 32px;
   background: white var(--switch-bg-url) no-repeat;
-  border: 0;
   border-radius: 50%;
 
   position: absolute;
@@ -162,9 +159,4 @@ ul li a:hover {
 footer {
   text-align: center;
   font-size: 14px;
-
-  /* padding: 24px; */
-
-  /* background-color: #36495a;
-  border-radius: 10px; */
 }
