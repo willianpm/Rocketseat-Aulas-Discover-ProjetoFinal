@@ -27,6 +27,7 @@
 body {
   background: var(--bg-url) no-repeat center/cover;
   height: 100vh;
+  background-attachment: fixed;
 }
 
 body * {
