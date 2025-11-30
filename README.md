@@ -1,4 +1,4 @@
-# Metalúrgica Fortaço - Landing Page de Links (Linktree-style)
+# Landing Page de Links (Linktree-style)
 
 Este projeto é uma landing page simples, no estilo “Linktree”, criada para o Projeto Final (desafio prático) do curso **Discover** da **Rocketseat** com **Mayk Brito**.
 
