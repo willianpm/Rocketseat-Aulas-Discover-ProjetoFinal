@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="pt-br" class="">
+<html lang="pt-br">
 
 <head>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel=" preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
@@ -16,43 +16,41 @@
 <body>
   <div id="container">
     <div id="profile">
-      <img src="./assets/avatar.jpg" alt="Metalúrgica Fortaço" />
+      <img src="./assets/avatar.png" />
       <p>Fabricamos cofres de alta resistência para proteger seus bens</p>
-    </div>
 
-
-    <div id="switch">
-      <button></button>
-      <span></span>
+      <div id="switch" onclick="toggleMode()">
+        <button></button>
+        <span></span>
+      </div>
+      <ul>
+        <li>
+          <a href="#">Solicitar orçamento personalizado</a>
+        </li>
+        <li>
+          <a href="./assets/catalogo_pdf.pdf" target="_blank">Ver catálogo de modelos (PDF)</a>
+        </li>
+        <li>
+          <a href="./assets/banner-promocional.jpg" target="_blank">Galera de projetos especiais</a>
+        </li>
+        <li>
+          <a href="#">Fale conosco no WHATSAPP para dúvidas</a>
+        </li>
+      </ul>
+      <div id="social-links">
+        <a href="#" target="_blank">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a>
+        <a href="#" target="_blank">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+      </div>
+      <footer>
+        <p>A segurança do seu patrimônio começa aqui.</p>
+      </footer>
     </div>
-    <ul>
-      <li>
-        <a href="#">Solicitar orçamento personalizado</a>
-      </li>
-      <li>
-        <a href="./assets/catalogo_pdf.pdf" target="_blank">Ver catálogo de modelos (PDF)</a>
-      </li>
-      <li>
-        <a href="#">Galera de projetos especiais</a>
-      </li>
-      <li>
-        <a href="#">Fale conosco no WHATSAPP para dúvidas</a>
-      </li>
-    </ul>
-    <div id="social-links">
-      <a href="#" target="_blank">
-        <ion-icon name="logo-facebook"></ion-icon>
-      </a>
-      <a href="#" target="_blank">
-        <ion-icon name="logo-instagram"></ion-icon>
-      </a>
-    </div>
-    <footer>
-      <p>A segurança do seu patrimônio começa
-        aqui.</p>
-    </footer>
-  </div>
-  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
